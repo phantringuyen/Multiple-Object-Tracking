@@ -1,5 +1,5 @@
 ### Computer Vision
-# Multiple-Object-Tracking
+# Multiple Object Tracking
 - This project of [Jupyter Notebook](https://jupyter.org/) by [Python](https://www.python.org/) learn show how to create a complete system of **Computer Vision**
 
 ### 1. Team Information
