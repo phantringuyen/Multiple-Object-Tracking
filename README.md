@@ -14,7 +14,7 @@
 - Support Software: [Visual Studio Code](https://code.visualstudio.com/), [Google Colabotary](https://colab.google/), [Github](https://github.com/).
 - Programming Languages: [Python](https://www.python.org/)
 - In this modern age, Object Tracking has a wide range of applicational significances in various fields, including the applicational significance of object tracking enables real-time monitoring, analysis, and control of various processes and systems. 
-- Lying on image processing, the topic of Object tracking is a process of locating and following a specific object or region of interest (ROI) in a video stream or a sequence of images.
+- Lying on image processing, the topic of Object Tracking is a process of locating and following a specific object or region of interest (ROI) in a video stream or a sequence of images.
 - Object Tracking is the automatic identification and tracking of objects in videos or image sequences, with applications in computer vision, machine learning, robotics, and augmented reality. It can be used for surveillance, traffic monitoring, sports analysis, and studying behaviour patterns.
 - Basic understanding of the system
     - Input of the system: a sequence of frames from a video containing one or more objects.
@@ -24,7 +24,7 @@
 |-------------------------------------------|-------------------------------------------|
 |<img src="https://i.imgur.com/Gbb1isv.png">|<img src="https://i.imgur.com/KDIqiZ6.png">|
 
-- Multiple Object Tracking (MOT) is the process of simultaneously tracking multiple objects in a video sequence or a set of images. MOT is a challenging problem in computer vision and has many practical applications, including traffic monitoring, crowd analysis, and robotics.
+- [Multiple Object Tracking (MOT)](https://en.wikipedia.org/wiki/Multiple_object_tracking) is the process of simultaneously tracking multiple objects in a video sequence or a set of images. MOT is a challenging problem in computer vision and has many practical applications, including traffic monitoring, crowd analysis, and robotics.
 - The goal of MOT is to assign a unique identity to each object and estimate their locations and trajectories over time. MOT algorithms typically use a combination of object detection, data association, and motion estimation techniques to track multiple objects.
 
 ### 3. Contributions
@@ -37,20 +37,20 @@
 
 ### 4. Methodology
 #### 4.1 OBJECT DETECTION
-- Input: Single image
-- Output: Region proposals which include bounding boxes and feature maps (by Roi Align)
+- **Input**: Single image
+- **Output**: Region proposals which include bounding boxes and feature maps (by [Region of Interest Align](https://paperswithcode.com/method/roi-align)
 
 #### 4.2 QUASI-DENSE SIMILARITY LEARNING
 <img src="https://i.imgur.com/FiEc7YV.png">
 
-- Input: Keyframe, reference frame.
-- Output: each frame has its region proposals which include bounding boxes and feature embeddings (feature maps of RoIs are extracted by an embedding head).
+- **Input**: Keyframe, reference frame.
+- **Output**: each frame has its region proposals which include bounding boxes and feature embeddings (feature maps of RoIs are extracted by an embedding head).
 
 #### 4.3 OBJECT ASSOCIATION
 <img src="https://i.imgur.com/CDtlkKX.png">
 
-- Input: Keyframe, reference frames.
-- Output: Track identification for each object (after matching the successful embedding feature by “bi-softmax”) in the keyframe. 
+- **Input**: Keyframe, reference frames.
+- **Output**: Track identification for each object (after matching the successful embedding feature by “bi-softmax”) in the keyframe. 
 
 ### 5. Pseudocodes
 ```sh
@@ -97,8 +97,8 @@ Main_function(config, video):
 ```
 
 ### 6. Demonstration
-- The DanceTrack dataset is a video dataset of multiple people dancing in a crowded environment, where occlusions and interactions among the dancers are common.
-- In this project, our team would take up to 25 videos in a validated set with the length of each video from 80 seconds to 160 seconds. The dataset provides ground truth annotations for the positions and identities of the dancers in each frame.
+- [The DanceTrack dataset](https://github.com/DanceTrack/DanceTrack) is a video dataset of multiple people dancing in a crowded environment, where occlusions and interactions among the dancers are common.
+- In this project, our team would take up to *25 videos* in a validated set with the length of each video *from 80 seconds to 160 seconds*. The dataset provides ground truth annotations for the positions and identities of the dancers in each frame.
 - Our team has proposed a demonstration of how to run a source code which applies Quasi-dense Similarity Learning for the Multiple Object Tracking method on [the DanceTrack dataset](https://github.com/DanceTrack/DanceTrack) as [the following demo video](https://drive.google.com/file/d/1jZlghnBrB3cLdwpJ9VEvXgVwVBgJHLk5/view)
 
 
