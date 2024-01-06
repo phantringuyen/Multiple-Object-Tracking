@@ -11,8 +11,8 @@
 | 4 | Hoang Kim Tran   | 19127039@student.hcmus.edu.vn | Algorithm Programmer |
 
 ### 2. Overview
-- Support Software: Visual Studio Code, Google Colabotary, Github.
-- Programming Languages: Python
+- Support Software: [Visual Studio Code](https://code.visualstudio.com/), [Google Colabotary](https://colab.google/), [Github](https://github.com/).
+- Programming Languages: [Python](https://www.python.org/)
 - In this modern age, Object Tracking has a wide range of applicational significances in various fields, including the applicational significance of object tracking enables real-time monitoring, analysis, and control of various processes and systems. 
 - Lying on image processing, the topic of Object tracking is a process of locating and following a specific object or region of interest (ROI) in a video stream or a sequence of images.
 - Object Tracking is the automatic identification and tracking of objects in videos or image sequences, with applications in computer vision, machine learning, robotics, and augmented reality. It can be used for surveillance, traffic monitoring, sports analysis, and studying behaviour patterns.
