@@ -103,7 +103,8 @@ Main_function(config, video):
 
 
 ### 7. In Conclusion
-- **QDTrack**, employing a unique quasi-dense similarity learning framework, excels in multiple object tracking, particularly in challenging scenarios like crowded scenes with occlusions. Compared to leading methods, QDTrack demonstrates competitive performance on key metrics. It adeptly handles issues such as long-term occlusions and track fragmentation. However, its suitability depends on the presence of object proposals and assumptions of stable object appearance and motion patterns. In scenarios deviating from these conditions, alternative tracking methods may be more suitable.
+- **QDTrack**, employing a unique quasi-dense similarity learning framework, excels in multiple object tracking, particularly in challenging scenarios like crowded scenes with occlusions.
+- Compared to leading methods, QDTrack demonstrates competitive performance on key metrics. It adeptly handles issues such as long-term occlusions and track fragmentation. However, its suitability depends on the presence of object proposals and assumptions of stable object appearance and motion patterns. In scenarios deviating from these conditions, alternative tracking methods may be more suitable.
 
 ### 8. Further Information
 - For further details, please visit the **Report.pdf** file provided above.
