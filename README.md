@@ -5,10 +5,10 @@
 ### 1. Team Information
 |No.| Members          | Email                         | Role                 |
 |---|------------------|-------------------------------|----------------------|
-| 1 | Tri Nguyen Phan  | 20127578@student.hcmus.edu.vn | Team Leader          |
-| 2 | Manh Hung Nguyen | 20127030@student.hcmus.edu.vn | Algorithm Developer  |
-| 3 | Hoang Minh Luu   | 20127048@student.hcmus.edu.vn | UI/UX Designer       |
-| 4 | Hoang Kim Tran   | 19127039@student.hcmus.edu.vn | Algorithm Programmer |
+| 1 | Nguyen Tri Phan  | 20127578@student.hcmus.edu.vn | Team Leader          |
+| 2 | Hung Manh Nguyen | 20127030@student.hcmus.edu.vn | Algorithm Developer  |
+| 3 | Minh Hoang Luu   | 20127048@student.hcmus.edu.vn | UI/UX Designer       |
+| 4 | Kim Hoang Tran   | 19127039@student.hcmus.edu.vn | Algorithm Programmer |
 
 ### 2. Overview
 - Support Software: [Visual Studio Code](https://code.visualstudio.com/), [Google Colabotary](https://colab.google/), [Github](https://github.com/).
